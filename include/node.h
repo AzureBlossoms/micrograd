@@ -1,5 +1,8 @@
+template<typename T>
 class Node {
-    double data;
+public:
+    Node(const T data);
 
-    Node(const double data);
+private:
+    T data;
 };

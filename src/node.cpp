@@ -1,3 +1,4 @@
 #include "node.h"
 
-Node::Node(const double data) : data(data) {}
+template<typename T>
+Node<T>::Node(const T data) : data(data) {}
