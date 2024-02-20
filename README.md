@@ -10,6 +10,5 @@ Tested on Ubuntu 22.04.4 LTS
 ```bash
 git clone https://github.com/AzureBlossoms/micrograd.git
 cd micrograd
-pip install -r requirements.txt
 make
 ```
